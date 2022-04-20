@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ashay art gallery</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: url('art3.jpg');
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        
+        position: absolute;
+        left: 19px;
+        top: 11px;
+    }
+
+    .left img {
+        width: 84px;
+        margin: 0px 48px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 28px;
+        line-height: 24px;
+    }
+
+    .mid {
+        display: block;
+        width: 57%;
+        margin: 11px auto;
+        
+    }
+
+    .nav li {
+        display: inline-block;
+        list-style: none;
+        font-size: 22px;
+    }
+
+    .nav li a {
+        text-decoration: none;
+        color: rgb(245, 224, 35);
+        padding: 1px 49px;
+    }
+
+    .nav li a:hover,
+    .nav li a:active {
+        text-decoration: underline;
+        color: rgb(248, 162, 3);
+        font-size: bold;
+    }
+
+    .right {
+        display: inline-block;
+      
+        position: absolute;
+        right: 19px;
+        top: 11px;
+    }
+
+    .btn {
+        margin: 21px 18px;
+        background-color: rgb(248, 193, 42);
+        color: black;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    .btn:hover {
+        background-color: orange;
+    }
+
+    .container {
+     
+        margin: 154px 26px;
+
+        width: 46%;
+    }
+
+    .formgroup input {
+        text-align: center;
+        border: 2px solid black;
+        display: block;
+        width: 79%;
+        padding: 12px;
+        margin: 8px auto;
+        border-radius: 18px;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: rgb(254, 250, 0);
+    }
+
+    .container button {
+        display: block;
+        width: 515px;
+        margin: 23px auto;
+        border-radius: 18px;
+        border: 2px solid black;
+        padding: 9px;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>art gallery</div>
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">VISIT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">contact</button>
+            <button class="btn">email us</button>
+        </div>
+        <div class="container">
+            <h1>REGISTER TO WATCH PLEASENT ART</h1>
+            <form action="noaction.php">
+                <div class="formgroup">
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="enter your age">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="enter your address">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="enter your number">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="enter your email">
+                </div>
+                <div class="formgroup">
+                    <button class="btn">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
